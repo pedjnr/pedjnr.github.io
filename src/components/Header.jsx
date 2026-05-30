@@ -3,20 +3,14 @@ import { Mail, Moon, Sun } from 'lucide-react';
 import { navigation, profile, socialLinks } from '../data/site.js';
 import BugEye from './BugEye.jsx';
 
-const THEME_STORAGE_KEY = 'qa-portfolio-theme-v2';
+const THEME_STORAGE_KEY = 'qa-portfolio-theme';
 
 function getInitialTheme() {
   if (typeof window === 'undefined') {
     return 'light';
   }
 
-  const savedTheme = window.localStorage.getItem(THEME_STORAGE_KEY);
-
-  if (savedTheme === 'dark' || savedTheme === 'light') {
-    return savedTheme;
-  }
-
-  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  return window.localStorage.getItem(THEME_STORAGE_KEY) === 'dark' ? 'dark' : 'light';
 }
 
 function GitHubIcon({ size = 19 }) {
@@ -69,14 +63,8 @@ export default function Header() {
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
-    document.documentElement.style.colorScheme = isDarkMode ? 'dark' : 'only light';
     window.localStorage.setItem(THEME_STORAGE_KEY, theme);
-
-    const themeColor = document.querySelector('meta[name="theme-color"]');
-    if (themeColor) {
-      themeColor.setAttribute('content', isDarkMode ? '#111716' : '#f5f7f4');
-    }
-  }, [isDarkMode, theme]);
+  }, [theme]);
 
   useEffect(() => {
     if (!showThemeHint) {
