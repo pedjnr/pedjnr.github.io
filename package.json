@@ -1,0 +1,26 @@
+{
+  "name": "qa-portfolio-pedro",
+  "private": true,
+  "version": "1.0.0",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@fontsource/manrope": "5.2.8",
+    "@fontsource/sora": "5.2.8",
+    "@vitejs/plugin-react": "6.0.2",
+    "lucide-react": "1.16.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "vite": "8.0.13"
+  },
+  "devDependencies": {
+    "gh-pages": "6.3.0"
+  }
+}

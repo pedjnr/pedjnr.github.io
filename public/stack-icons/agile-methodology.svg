@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Metodologia Ágil">
+  <rect width="64" height="64" rx="16" fill="#F5FAF8"/>
+  <path d="M18 34a14 14 0 0 1 23.9-9.9L46 28" fill="none" stroke="#2F527A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 20v8h-8" fill="none" stroke="#2F527A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M46 30a14 14 0 0 1-23.9 9.9L18 36" fill="none" stroke="#B12A3B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 44v-8h8" fill="none" stroke="#B12A3B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="32" r="5" fill="#D79D31"/>
+</svg>

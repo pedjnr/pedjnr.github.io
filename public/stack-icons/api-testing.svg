@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Testes de API">
+  <rect width="64" height="64" rx="16" fill="#F5FAF8"/>
+  <path d="M19 22 10 32l9 10M45 22l9 10-9 10" fill="none" stroke="#2F527A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M37 17 27 47" stroke="#B12A3B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M25 34h14" stroke="#2F527A" stroke-width="3.2" stroke-linecap="round" opacity=".35"/>
+</svg>
