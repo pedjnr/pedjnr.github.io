@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Documentação QA">
+  <rect width="64" height="64" rx="16" fill="#F7FAFF"/>
+  <path d="M18 12h22l8 8v32H18V12Z" fill="#FFFFFF" stroke="#2F527A" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M40 12v9h8" fill="none" stroke="#2F527A" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M25 29h16M25 37h16M25 45h9" stroke="#2F527A" stroke-width="3" stroke-linecap="round"/>
+  <path d="m23 21 3 3 6-8" fill="none" stroke="#B12A3B" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
