@@ -142,7 +142,7 @@ export const experienceContent = {
   supporting: [
     {
       title: 'Formação',
-      items: ['Engenharia de Software - UNINTER', 'Bacharelado em andamento desde 04/2022']
+      items: ['Engenharia de Software - UNINTER', 'Concluído 07/2026']
     },
     {
       title: 'Certificações',
